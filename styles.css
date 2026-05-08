@@ -480,7 +480,7 @@ main, .nav, .footer { position: relative; z-index: 2; }
 }
 
 .about__inner {
-  max-width: 880px;
+   max-width: var(--container);
 }
 
 .about__title {
