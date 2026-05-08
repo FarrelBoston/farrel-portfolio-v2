@@ -1,62 +1,62 @@
 [
   {
-    "id": 1,
+    "id": "video-education",
+    "company": "WalkMe",
     "title": "Video education",
-    "company": "WalkMe",
     "description": "Turned complex product capabilities into binge worthy video blog. Built the 5th highest converting page on the site and a reusable asset that BDRs share across the sales cycle.",
-    "tags": ["Video", "Product storytelling", "Sales enablement"],
-    "ctas": [
-      { "label": "Watch product video", "url": "https://www.youtube.com/watch?v=U5b6JJ4blaA", "primary": true }
-    ]
+    "metric": "5th highest converting page",
+    "cta": "Watch product video",
+    "url": "https://www.youtube.com/watch?v=U5b6JJ4blaA",
+    "tags": ["content", "video"]
   },
   {
-    "id": 2,
+    "id": "gtm-campaigns",
+    "company": "WalkMe",
     "title": "GTM campaigns",
-    "company": "WalkMe",
     "description": "Unified marketing, sales and product around a single narrative. Coordinated scattered GTM work into a growth engine that delivered a 20% increase in net new logos.",
-    "tags": ["GTM campaigns", "Product launch", "Messaging & positioning"],
-    "ctas": [
-      { "label": "Watch GTM launch", "url": "https://www.youtube.com/watch?v=JYdNaDOxu_8&t=4s", "primary": true }
-    ]
+    "metric": "+20% net new logos",
+    "cta": "Watch GTM launch",
+    "url": "https://www.youtube.com/watch?v=JYdNaDOxu_8&t=4s",
+    "tags": ["gtm", "launch"]
   },
   {
-    "id": 3,
-    "title": "Product communications",
+    "id": "product-comms",
     "company": "WalkMe",
+    "title": "Product communications",
     "description": "Transformed quarterly release notes into must read, customer centric updates. Achieved a 32% email open rate by focusing on value instead of feature dumps.",
-    "tags": ["Email", "Copywriting", "Adoption campaigns"],
-    "ctas": [
-      { "label": "Read launch email", "url": "https://drive.google.com/file/d/10ta3-HEmbzduDdlE7USGX0YXx2X3Tfcn/view", "primary": true }
-    ]
+    "metric": "32% email open rate",
+    "cta": "Read launch email",
+    "url": "https://drive.google.com/file/d/10ta3-HEmbzduDdlE7USGX0YXx2X3Tfcn/view",
+    "tags": ["content", "launch"]
   },
   {
-    "id": 4,
+    "id": "product-overviews",
+    "company": "Fiverr Pro",
     "title": "Product overviews",
-    "company": "Fiverr Pro",
     "description": "Turned a premium offering into crisp, confident sales narratives. Equipped reps to pitch and close by spotlighting customer value rather than technical detail.",
-    "tags": ["Sales enablement", "One-pager", "Messaging & positioning"],
-    "ctas": [
-      { "label": "View one-pager", "url": "https://drive.google.com/file/d/161a6qx7h2KNWPLORwvinY50l3T11ZRws/view", "primary": true }
-    ]
+    "metric": "Sales-ready narrative",
+    "cta": "View one-pager",
+    "url": "https://drive.google.com/file/d/161a6qx7h2KNWPLORwvinY50l3T11ZRws/view",
+    "tags": ["sales"]
   },
   {
-    "id": 5,
+    "id": "onboarding",
+    "company": "Fiverr Pro",
     "title": "Onboarding journeys",
-    "company": "Fiverr Pro",
     "description": "Orchestrated a multi touch onboarding journey that converted curiosity into activation. Increased sign ups by 35% through lifecycle emails and in-app nudges.",
-    "tags": ["Onboarding", "Lifecycle", "In-app"],
-    "ctas": [
-      { "label": "View landing page", "url": "https://www.fiverr.com/cp/pro-freelancers", "primary": true }
-    ]
+    "metric": "+35% sign ups",
+    "cta": "View landing page",
+    "url": "https://www.fiverr.com/cp/pro-freelancers",
+    "tags": ["lifecycle"]
   },
   {
-    "id": 6,
-    "title": "Sales enablement",
+    "id": "sales-enablement",
     "company": "Fiverr Pro",
+    "title": "Sales enablement",
     "description": "Wove features, proof points and testimonials into a cohesive story. Gave reps a benefit-led narrative that accelerates deals and communicates value instantly.",
-    "tags": ["Sales enablement", "Copywriting", "One-pager"],
-    "ctas": [
-      { "label": "View one-pager", "url": "https://drive.google.com/file/d/182S1N17aE3JkGsUXfCqE63l89GDv31wt/view", "primary": true }
-    ]
+    "metric": "Benefit-led narrative",
+    "cta": "View one-pager",
+    "url": "https://drive.google.com/file/d/182S1N17aE3JkGsUXfCqE63l89GDv31wt/view",
+    "tags": ["sales"]
   }
 ]

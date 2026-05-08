@@ -1,23 +1,46 @@
-# Farrel Brest — Portfolio v2 (Clean)
+# Farrel Brest — Portfolio v3
 
-B2B SaaS Content & Product Marketing portfolio. Static HTML + CSS + vanilla JS. GitHub Pages ready.
+Refined B2B PMM portfolio. Static site, GitHub Pages ready.
 
 ## Files
 
-- `index.html` — Full page
-- `styles.css` — All styling (Figma-inspired dark design)
-- `projects.json` — 6 project cards with exact copy from PDF
-- `README.md` — This file
+- `index.html` — single-page layout (hero, stats, projects, about, footer)
+- `styles.css` — design system + responsive
+- `script.js` — renders projects from JSON, scroll reveal, footer year
+- `projects.json` — 6 projects (single source of truth)
 
-## Deploy
+## What changed from v2
 
-1. Create a new GitHub repo (e.g., `farrel-portfolio-v2`)
-2. Upload all 4 files
-3. Enable GitHub Pages (Settings → Pages → Source: main)
-4. Site lives at `github.com/username/reponame`
+- **Hero**: Tighter typography. Headline reads as one confident line, not five stretched ones.
+- **Color discipline**: Single purple accent (`#A259FF`). Killed the green inconsistency.
+- **Background**: Deeper black (`#0A0A0A`) + subtle dot grid + film grain for depth.
+- **Stats**: Consistent treatment, dividers between, only the unit is purple.
+- **Projects**: 2-column grid (was 3). Bigger cards, more breathing room per project. Each card shows a metric chip in the header.
+- **Filters removed**: 13 tags for 6 projects was overhead. Cleaner without.
+- **About**: Tighter, left-aligned, controlled width.
+- **Footer**: Refined with brand + links + meta line.
+- **Motion**: Scroll-triggered staggered reveals. Card hover with gradient-border glow.
 
-## Edit Content
+## Deploy to GitHub Pages
 
-- **Projects** → edit `projects.json`
-- **Hero/About text** → edit `index.html`
-- **Colors/fonts** → edit CSS variables in `styles.css`
+1. Push these 4 files to the repo root (`main` branch).
+2. Repo → **Settings → Pages** → Source: `Deploy from a branch`, Branch: `main`, Folder: `/ (root)`.
+3. Save. Live in ~1–2 minutes at `https://<user>.github.io/<repo>/`.
+4. Hard refresh (`Cmd+Shift+R`) if you see cached v2.
+
+## Updating projects
+
+Edit `projects.json`. Each entry needs:
+- `id`, `company`, `title`, `description`, `metric`, `cta`, `url`, `tags`
+
+No HTML edits needed — cards render automatically.
+
+## Local preview
+
+```bash
+# any static server works; example:
+python3 -m http.server 8000
+# open http://localhost:8000
+```
+
+`projects.json` won't load via `file://` (CORS). You need a local server.

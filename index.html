@@ -3,216 +3,128 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Farrel Brest — B2B SaaS Product Marketing portfolio. Messaging, GTM strategy, and content that drives pipeline and adoption." />
+  <title>Farrel Brest — B2B Product Marketing</title>
 
-  <title>Farrel Brest — B2B SaaS Content & Product Marketing</title>
-  <meta name="description" content="B2B SaaS Content & Product Marketing Expert. Turning complex tech products into experiences people can understand, adopt, and act on." />
-  <meta name="author" content="Farrel Brest" />
-
-  <meta property="og:title" content="Farrel Brest — PMM Portfolio" />
-  <meta property="og:description" content="Marketer who builds between systems and stories." />
-  <meta property="og:type" content="website" />
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@500;600;700;800&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="styles.css" />
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='4' fill='%23a259ff'/><text x='7' y='23' font-size='17' font-family='sans-serif' font-weight='900' fill='white'>F</text></svg>" />
 </head>
 <body>
 
+  <!-- Subtle dot grid backdrop -->
+  <div class="grid-bg" aria-hidden="true"></div>
+  <div class="noise" aria-hidden="true"></div>
+
   <!-- NAV -->
-  <nav class="nav">
-    <div class="nav-logo">Farrel<span>.</span></div>
-    <ul class="nav-links">
-      <li><a href="#projects">Work</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="https://www.linkedin.com/in/farrelbrest/" class="nav-cta" target="_blank" rel="noopener">LinkedIn ↗</a></li>
-    </ul>
-  </nav>
-
-  <!-- HERO -->
-  <section class="hero">
-    <div class="hero-grid"></div>
-    <div class="hero-inner">
-      <div class="hero-badge">
-        <span class="hero-badge-dot"></span>
-        B2B SaaS Content &amp; Product Marketing Expert
-      </div>
-
-      <h1 class="hero-title">
-        Marketer who builds<br>
-        <span class="hero-title-accent">between systems</span><br>
-        and stories
-      </h1>
-
-      <p class="hero-sub">
-        Turning complex tech products into experiences people can actually
-        understand, adopt, and act on.
-      </p>
-
-      <div class="hero-actions">
-        <a href="#projects" class="btn-primary">View work ↓</a>
-        <a href="mailto:farrelbrest@gmail.com" class="btn-secondary">Get in touch →</a>
-      </div>
+  <header class="nav">
+    <div class="nav__inner">
+      <a href="#" class="nav__logo">Farrel<span>.</span></a>
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener" class="nav__cta">
+          LinkedIn <span aria-hidden="true">↗</span>
+        </a>
+      </nav>
     </div>
-  </section>
+  </header>
 
-  <!-- STATS -->
-  <section class="stats-band">
-    <div class="stats-inner">
-      <div class="stat-item">
-        <div class="stat-number">$500<span class="accent">K</span></div>
-        <div class="stat-label">Influenced pipeline</div>
-      </div>
-      <div class="stat-item">
-        <div class="stat-number">85<span class="accent">%</span></div>
-        <div class="stat-label">Post launch retention</div>
-      </div>
-      <div class="stat-item">
-        <div class="stat-number">3<span class="accent-green">X</span></div>
-        <div class="stat-label">Feature adoption growth</div>
-      </div>
-      <div class="stat-item">
-        <div class="stat-number">35<span class="accent-green">%</span></div>
-        <div class="stat-label">New user sign ups</div>
-      </div>
-    </div>
-  </section>
+  <main>
 
-  <!-- PROJECTS -->
-  <main id="projects" class="section-projects">
-    <div class="section-header">
-      <p class="section-label">Selected work</p>
-      <h2 class="section-title">Projects</h2>
-    </div>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="badge">
+          <span class="badge__dot" aria-hidden="true"></span>
+          B2B SaaS Content &amp; Product Marketing
+        </div>
+        <h1 class="hero__title">
+          Marketer who builds <span class="accent">between systems and stories.</span>
+        </h1>
+        <p class="hero__sub">
+          Turning complex tech products into experiences people can actually understand, adopt, and act on.
+        </p>
+        <div class="hero__ctas">
+          <a href="#work" class="btn btn--primary">View work <span aria-hidden="true">↓</span></a>
+          <a href="mailto:hello@example.com" class="btn btn--ghost">Get in touch <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
 
-    <div class="filter-tabs" id="filter-tabs">
-      <button class="filter-btn active" data-filter="all">All</button>
-    </div>
+    <!-- STATS -->
+    <section class="stats" aria-label="Impact metrics">
+      <div class="container stats__grid">
+        <div class="stat">
+          <div class="stat__value">$500K</div>
+          <div class="stat__label">Influenced pipeline</div>
+        </div>
+        <div class="stat">
+          <div class="stat__value">85<span class="stat__unit">%</span></div>
+          <div class="stat__label">Post-launch retention</div>
+        </div>
+        <div class="stat">
+          <div class="stat__value">3<span class="stat__unit">×</span></div>
+          <div class="stat__label">Feature adoption growth</div>
+        </div>
+        <div class="stat">
+          <div class="stat__value">35<span class="stat__unit">%</span></div>
+          <div class="stat__label">New user sign-ups</div>
+        </div>
+      </div>
+    </section>
 
-    <div class="projects-grid" id="projects-grid"></div>
+    <!-- WORK -->
+    <section id="work" class="work">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Selected work</span>
+          <h2 class="section-title">Projects</h2>
+          <p class="section-sub">Six selected projects across GTM, content, sales enablement and lifecycle.</p>
+        </div>
+
+        <div class="projects" id="projects-grid">
+          <!-- injected by script.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about">
+      <div class="container about__inner">
+        <span class="eyebrow">About</span>
+        <h2 class="about__title">
+          Part builder. <br />
+          <span class="accent-soft">Part storyteller.</span>
+        </h2>
+        <p class="about__body">
+          I blend strategy and execution to ship faster and help teams unlock customer value. The lines between strategist and operator, technical and creative, analyst and storyteller are disappearing. I work end to end — from research and positioning to building, launching, learning and iterating.
+        </p>
+      </div>
+    </section>
+
   </main>
-
-  <!-- ABOUT -->
-  <section id="about" class="section-about">
-    <div class="about-inner">
-      <p class="about-label">About</p>
-      <h2 class="about-title">
-        Part builder<br><em>+ Part storyteller</em>
-      </h2>
-      <p class="about-body">
-        I blend strategy and execution to ship faster and help teams unlock
-        customer value. The lines between strategist and operator, technical
-        and creative, analyst and storyteller are disappearing. I work end
-        to end, from research and positioning to building, launching,
-        learning and iterating.
-      </p>
-    </div>
-  </section>
 
   <!-- FOOTER -->
   <footer class="footer">
-    <div class="footer-left">
-      <p class="footer-name">Farrel<span>.</span></p>
-      <p class="footer-sub">B2B SaaS Content &amp; Product Marketing</p>
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="footer__logo">Farrel<span>.</span></span>
+        <span class="footer__tag">B2B SaaS · Product Marketing</span>
+      </div>
+      <nav class="footer__links" aria-label="Footer">
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:hello@example.com">Email</a>
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+      </nav>
+      <div class="footer__meta">© <span id="year"></span> Farrel Brest. All rights reserved.</div>
     </div>
-    <nav class="footer-links">
-      <a href="https://www.linkedin.com/in/farrelbrest/" target="_blank" rel="noopener">LinkedIn</a>
-      <a href="mailto:farrelbrest@gmail.com">Email</a>
-      <a href="#projects">Work</a>
-      <a href="#about">About</a>
-    </nav>
   </footer>
 
-  <script>
-    async function loadProjects() {
-      try {
-        const res = await fetch('projects.json');
-        if (!res.ok) throw new Error(`HTTP ${res.status}`);
-        return await res.json();
-      } catch (err) {
-        console.error('Could not load projects.json:', err);
-        return [];
-      }
-    }
-
-    function buildCard(project) {
-      const card = document.createElement('article');
-      card.className = 'project-card';
-      card.setAttribute('data-tags', JSON.stringify(project.tags || []));
-
-      const ctaHTML = (project.ctas || []).map(cta =>
-        `<a href="${cta.url}" class="cta-primary" target="_blank" rel="noopener">${cta.label} →</a>`
-      ).join('');
-
-      card.innerHTML = `
-        <div class="card-accent-line"></div>
-        <div class="card-header">
-          <span class="card-company">${project.company || ''}</span>
-        </div>
-        <h3 class="card-title">${project.title}</h3>
-        <p class="card-description">${project.description}</p>
-        <div class="card-ctas">${ctaHTML}</div>
-      `;
-      return card;
-    }
-
-    function getAllTags(projects) {
-      const set = new Set();
-      projects.forEach(p => (p.tags || []).forEach(t => set.add(t)));
-      return Array.from(set).sort();
-    }
-
-    function renderFilters(tags) {
-      const container = document.getElementById('filter-tabs');
-      tags.forEach(tag => {
-        const btn = document.createElement('button');
-        btn.className = 'filter-btn';
-        btn.dataset.filter = tag;
-        btn.textContent = tag;
-        btn.addEventListener('click', () => {
-          document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-          btn.classList.add('active');
-          filterCards(tag);
-        });
-        container.appendChild(btn);
-      });
-      container.querySelector('[data-filter="all"]').addEventListener('click', e => {
-        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-        e.target.classList.add('active');
-        filterCards('all');
-      });
-    }
-
-    function filterCards(tag) {
-      document.querySelectorAll('.project-card').forEach(card => {
-        const tags = JSON.parse(card.dataset.tags || '[]');
-        card.style.display = (tag === 'all' || tags.includes(tag)) ? '' : 'none';
-      });
-    }
-
-    function initReveal() {
-      const io = new IntersectionObserver(entries => {
-        entries.forEach((e, i) => {
-          if (e.isIntersecting) {
-            setTimeout(() => e.target.classList.add('visible'), i * 60);
-            io.unobserve(e.target);
-          }
-        });
-      }, { threshold: 0.08 });
-
-      document.querySelectorAll('.stat-item, .project-card').forEach(el => io.observe(el));
-    }
-
-    (async () => {
-      const projects = await loadProjects();
-      if (!projects.length) return;
-
-      const grid = document.getElementById('projects-grid');
-      projects.forEach(p => grid.appendChild(buildCard(p)));
-
-      renderFilters(getAllTags(projects));
-
-      requestAnimationFrame(() => requestAnimationFrame(initReveal));
-    })();
-  </script>
-
+  <script src="script.js"></script>
 </body>
 </html>
