@@ -158,7 +158,7 @@ main, .nav, .footer { position: relative; z-index: 2; }
    HERO
    ============================================ */
 .hero {
-  padding: clamp(72px, 12vw, 140px) 0 clamp(56px, 8vw, 100px);
+  padding: clamp(48px, 7vw, 88px) 0 clamp(56px, 8vw, 100px);
   position: relative;
 }
 
