@@ -171,10 +171,10 @@ main, .nav, .footer { position: relative; z-index: 2; }
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  padding: 6px 14px;
-  border: 1px solid var(--border-strong);
+  padding: 8px 16px;
+  border: 1.5px solid #7CFFB2;
   border-radius: 999px;
-  background: rgba(162, 89, 255, 0.06);
+  background: rgba(124, 255, 178, 0.08);
   font-size: 12px;
   font-weight: 500;
   color: var(--text-dim);
