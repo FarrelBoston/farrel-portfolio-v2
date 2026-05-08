@@ -448,13 +448,15 @@ main, .nav, .footer { position: relative; z-index: 2; }
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  color: var(--text);
+  color: var(--accent);
   text-decoration: none;
   font-size: 14px;
   font-weight: 600;
   align-self: flex-start;
-  padding-bottom: 4px;
-  border-bottom: 1px solid var(--border-strong);
+  padding: 10px 16px;
+  border: 1px solid rgba(162, 89, 255, 0.28);
+  border-radius: 10px;
+  background: rgba(162, 89, 255, 0.08);
   transition: all 0.2s var(--ease);
 }
 
