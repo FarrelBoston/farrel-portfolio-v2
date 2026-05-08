@@ -163,7 +163,7 @@ main, .nav, .footer { position: relative; z-index: 2; }
 }
 
 .hero__inner {
-  max-width: 920px;
+  max-width: var(--container);
   text-align: left;
 }
 
