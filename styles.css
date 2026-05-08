@@ -508,7 +508,7 @@ main, .nav, .footer { position: relative; z-index: 2; }
 .about__body {
   font-size: clamp(17px, 1.4vw, 19px);
   line-height: 1.7;
-  color: var(--text-dim);
+  color: rgba(255, 255, 255, 0.92);
   max-width: 64ch;
 }
 
