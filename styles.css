@@ -437,11 +437,12 @@ main, .nav, .footer { position: relative; z-index: 2; }
 }
 
 .project-card__desc {
-  font-size: 15px;
-  line-height: 1.6;
-  color: var(--text-dim);
-  margin-bottom: 28px;
+  font-size: 16px;
+  line-height: 1.75;
+  color: rgba(255, 255, 255, 0.82);
+  margin-bottom: 24px;
   flex: 1;
+  max-width: 34ch;
 }
 
 .project-card__cta {
