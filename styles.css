@@ -177,7 +177,7 @@ main, .nav, .footer { position: relative; z-index: 2; }
   background: rgba(124, 255, 178, 0.08);
   font-size: 12px;
   font-weight: 500;
-  color: var(--text-dim);
+  color: #FFFFFF;
   letter-spacing: 0.02em;
   margin-bottom: 28px;
 }
