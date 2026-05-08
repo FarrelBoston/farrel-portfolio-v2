@@ -306,11 +306,11 @@ main, .nav, .footer { position: relative; z-index: 2; }
 }
 
 .stat__label {
-  font-size: 12px;
-  font-weight: 500;
-  color: var(--text-muted);
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.72);
   text-transform: uppercase;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.04em;
 }
 
 /* ============================================
