@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "Video education",
+    "company": "WalkMe",
+    "description": "Turned complex product capabilities into binge worthy video blog. Built the 5th highest converting page on the site and a reusable asset that BDRs share across the sales cycle.",
+    "tags": ["Video", "Product storytelling", "Sales enablement"],
+    "ctas": [
+      { "label": "Watch product video", "url": "https://www.youtube.com/watch?v=U5b6JJ4blaA", "primary": true }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "GTM campaigns",
+    "company": "WalkMe",
+    "description": "Unified marketing, sales and product around a single narrative. Coordinated scattered GTM work into a growth engine that delivered a 20% increase in net new logos.",
+    "tags": ["GTM campaigns", "Product launch", "Messaging & positioning"],
+    "ctas": [
+      { "label": "Watch GTM launch", "url": "https://www.youtube.com/watch?v=JYdNaDOxu_8&t=4s", "primary": true }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Product communications",
+    "company": "WalkMe",
+    "description": "Transformed quarterly release notes into must read, customer centric updates. Achieved a 32% email open rate by focusing on value instead of feature dumps.",
+    "tags": ["Email", "Copywriting", "Adoption campaigns"],
+    "ctas": [
+      { "label": "Read launch email", "url": "https://drive.google.com/file/d/10ta3-HEmbzduDdlE7USGX0YXx2X3Tfcn/view", "primary": true }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Product overviews",
+    "company": "Fiverr Pro",
+    "description": "Turned a premium offering into crisp, confident sales narratives. Equipped reps to pitch and close by spotlighting customer value rather than technical detail.",
+    "tags": ["Sales enablement", "One-pager", "Messaging & positioning"],
+    "ctas": [
+      { "label": "View one-pager", "url": "https://drive.google.com/file/d/161a6qx7h2KNWPLORwvinY50l3T11ZRws/view", "primary": true }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Onboarding journeys",
+    "company": "Fiverr Pro",
+    "description": "Orchestrated a multi touch onboarding journey that converted curiosity into activation. Increased sign ups by 35% through lifecycle emails and in-app nudges.",
+    "tags": ["Onboarding", "Lifecycle", "In-app"],
+    "ctas": [
+      { "label": "View landing page", "url": "https://www.fiverr.com/cp/pro-freelancers", "primary": true }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Sales enablement",
+    "company": "Fiverr Pro",
+    "description": "Wove features, proof points and testimonials into a cohesive story. Gave reps a benefit-led narrative that accelerates deals and communicates value instantly.",
+    "tags": ["Sales enablement", "Copywriting", "One-pager"],
+    "ctas": [
+      { "label": "View one-pager", "url": "https://drive.google.com/file/d/182S1N17aE3JkGsUXfCqE63l89GDv31wt/view", "primary": true }
+    ]
+  }
+]
