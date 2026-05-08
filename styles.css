@@ -473,7 +473,7 @@ main, .nav, .footer { position: relative; z-index: 2; }
 }
 
 .project-card__cta:hover .arrow {
-  transform: translateX(4px);
+  transform: translateX(3px);
 }
 
 /* ============================================
